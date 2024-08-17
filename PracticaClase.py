@@ -8,3 +8,6 @@ import streamlit as st
 
 # Creando titulo
 st.title("K-means Clustering con Streamlit")
+
+#Subir Archivo
+uploaded_file = st.file_uploader("Sube un archivo excel", type=["elsx"])
